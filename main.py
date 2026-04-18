@@ -1,8 +1,6 @@
+import os
 print(max(4,100))
 
+print(os.getcwd())
 
-import os 
-
-print(os.get_blocking())
-
-print(os.get_inheritable(1))
+print(os.listdir())
